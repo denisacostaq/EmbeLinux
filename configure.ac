@@ -1,6 +1,6 @@
 #configure.ac
 AC_PREREQ([2.69])
-AC_INIT([hola-mundo],[0.0.1], [denisacostaq@gmail.com], [hola_mundo], [http://embelinux.blogspot.de/2013/09/autotools1-hola-mundo-la-autotools.html])
+AC_INIT([hola-mundo],[0.0.1], [denisacostaq@gmail.com], [hola_mundo], [http://embelinux.blogspot.com/2013/09/autotools2-integracion-de-getttext-con.html])
 AM_INIT_AUTOMAKE([1.10.1])
 
 
