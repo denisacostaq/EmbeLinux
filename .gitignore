@@ -1,0 +1,12 @@
+autom4te.cache/
+stamp-h1
+config.status
+config.log
+config.h
+stamp-h1
+Makefile
+src/Makefile
+*.o
+src/.deps/
+src/hola-mundo
+
