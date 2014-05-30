@@ -21,7 +21,6 @@ bool startSlave()
     QObject::connect(server, &QTcpServer::newConnection, [server]{
         QTcpSocket *cliSock = server->nextPendingConnection();
         serverLog(QString(u8"Acepted conection from %1").arg(cliSock->peerAddress().toString()));
-        cliSock->waitForReadyRead(100);
         serverLog(u8"Sending server Address: " + cliSock->localAddress().toString());
         cliSock->write(cliSock->localAddress().toString().toLocal8Bit());
         cliSock->waitForBytesWritten();
