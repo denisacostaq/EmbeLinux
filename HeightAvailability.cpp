@@ -14,7 +14,7 @@ void serverLog(const QString &msg)
     qDebug() << "-- [SERVIDOR] -- " << msg;
 }
 
-bool startMaster()
+bool startSlave()
 {
     serverLog(u8"Starting server");
     QTcpServer *server{new QTcpServer};
@@ -83,7 +83,7 @@ bool checkServers()
 
     if (!found)
     {
-        startMaster();
+        startSlave();
         return true;
     }
     return false;

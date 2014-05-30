@@ -1,1 +1,4 @@
 Aqui estaran los ejemplos del blog http://embelinux.blogspot.com
+
+Esto esta de mas waitForReadyRead, e la funcion lambda de startSlave
+Error: startMaster is startSlave
